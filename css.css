@@ -3,7 +3,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif; /* Use Poppins as the primary font */
+  font-family: 'Poppins', sans-serif; 
   background-color: #FFC0CB; 
 }
 
@@ -35,10 +35,7 @@ nav a {
   width: 60%; 
 }
 
-#hero-title {
-  font-size: 36px;
-  color: #800080; 
-}
+
 
 #cta-button {
   margin-top: 20px;
@@ -47,6 +44,7 @@ nav a {
   color: #FFF; 
   text-decoration: none;
   border-radius: 5px;
+  translate: -35% 1050%;
 }
 
 a:hover {
@@ -59,10 +57,21 @@ a:hover {
   justify-content: center;
   align-items: center;
   max-width: 5%;
-  height: 10%; /* Add this line to make it fill the height */
+  height: 10%; 
+}
+
+
+#image-section-1 {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 50%;
+  height: 100%; 
+  translate: 10% -15%;
 }
 
 svg {
-  max-width: 10%; /* Adjust the size of the SVG */
+  max-width: 10%; 
   height: auto;
 }
