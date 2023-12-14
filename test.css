@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: pink;
+}
+
+.rollsektion {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto;
+    max-width: 800px; /* Justera bredden efter behov */
+}
+
+.column {
+    text-align: center;
+}
+
+.column h2 {
+    color: #333; /* Justera färgen efter behov */
+}
+
+.column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.column li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f2f2f2; /* Justera bakgrundsfärgen efter behov */
+    border-radius: 5px;
+}
