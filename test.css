@@ -23,11 +23,12 @@ body {
 .column ul {
     list-style-type: none;
     padding: 0;
+    color: white;
 }
 
 .column li {
     margin: 10px 0;
     padding: 10px;
-    background-color: #f2f2f2; /* Justera bakgrundsfärgen efter behov */
+    background-color: #3e0141; 
     border-radius: 5px;
 }
